@@ -51,7 +51,7 @@ def scrape_songs(start_page=1, end_page=300, verbose=True):
 
     Returns
     -------
-    dataframe: pandas DataFrame with 2 columns representing title and artist
+    list: array with 2 columns representing title and artist
     """
 
     #Initialize empty list with header
